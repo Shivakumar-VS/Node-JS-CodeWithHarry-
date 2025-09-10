@@ -4,7 +4,7 @@ const server = http.createServer((req, res) =>{
     console.log(req.url, req.headers, req.method);
 
     if (req.url === '/'){
-         res.setHeader('Content-Type', 'text/html');
+    res.setHeader('Content-Type', 'text/html');
     res.write('<!DOCTYPE html>');
     res.write('<body>');
     res.write('<h1>Hello World</h1>');
@@ -14,7 +14,7 @@ const server = http.createServer((req, res) =>{
     return res.end();
     }else if(req.url === '/about'){
 
-     res.setHeader('Content-Type', 'text/html');
+    res.setHeader('Content-Type', 'text/html');
     res.write('<!DOCTYPE html>');
     res.write('<body>');
     res.write('<h1>About Us</h1>');
