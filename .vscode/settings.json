@@ -1,5 +1,8 @@
 {
     "cSpell.words": [
         "Bengaluru"
-    ]
+    ],
+    "github.copilot.enable": {
+        "javascript": true
+    }
 }
